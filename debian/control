@@ -1,0 +1,16 @@
+Source: flagrate
+Section: web
+Priority: optional
+Maintainer: soburi <soburi@gmail.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.5
+Homepage: http://flagrate.org
+#Vcs-Git: git://git.debian.org/collab-maint/flagrate.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/flagrate.git;a=summary
+
+Package: libjs-flagrate
+Architecture: all
+Depends: ${misc:Depends}
+Description: Pure JavaScript class-object UI library.
+ You can use Flagrate with jQuery, Prototype, or your favorite
+ framework if needed!
